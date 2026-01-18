@@ -77,9 +77,13 @@
 
 % Load ruby package for furigana (Ruby text)
 \usepackage{ruby}
-% \renewcommand{\ruby}[2]{%
-%   \ruby{\jcz{#1}}{\jcz{#2}}%
-% }
+% Make ruby text larger; adjust the fontsize values if you want more/less.
+
+
+
+\let\origRuby\ruby
+\newcommand{\rubyfont}{\fontsize{7}{30}\selectfont}
+\renewcommand{\ruby}[2]{\origRuby{#1}{{\rubyfont #2}}}
 
 
 % *-----------------------------------------------------------------------*

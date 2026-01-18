@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  19 JAN 2026 00:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  19 JAN 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1165,6 +1165,11 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' 
 [8]
 
 [9]
+Underfull \hbox (badness 2326) in paragraph at lines 315--316
+[][] [] []\TU/BabelStoneHan(0)/b/n/10 ？| [] [] [] [] [] [] [] [] []？| [] [] []！| [] [] [] []！| [] [] [] [] []
+ []
+
+
 
 [10]
 
@@ -1177,6 +1182,11 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' 
 [14]
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+[][] [] [] [] []\TU/BabelStoneHan(0)/b/n/10 ，| [] [] [] [] []！| []！| [] []！| [] []！| [] []！| []
+ []
+
+
 
 [16]
 
@@ -1187,12 +1197,12 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' 
 [19]
 
 [20]
+Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=hani;language=dflt;!
+
 
 [21]
 
 [22]
-Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=hani;language=dflt;!
-
 
 [23]
 
@@ -1237,6 +1247,8 @@ Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=h
 [43]
 
 [44]
+Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=hani;language=dflt;!
+
 
 [45]
 
@@ -1247,8 +1259,6 @@ Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=h
 [48]
 
 [49]
-Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=hani;language=dflt;!
-
 
 [50]
 
@@ -1265,6 +1275,11 @@ Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=h
 [56]
 
 [57]
+Underfull \hbox (badness 1019) in paragraph at lines 2124--2125
+[][] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []\TU/BabelStoneHan(0)/b/n/10 ！| [] [] [] [] [] [] [] [] [] [] []
+ []
+
+
 
 [58]
 
@@ -1279,11 +1294,6 @@ Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=h
 [63]
 
 [64]
-Underfull \hbox (badness 1019) in paragraph at lines 2124--2125
-[][] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []\TU/BabelStoneHan(0)/b/n/10 ！| [] [] [] [] [] [] [] [] [] [] []
- []
-
-
 
 [65]
 
@@ -1323,29 +1333,9 @@ Underfull \hbox (badness 1019) in paragraph at lines 2124--2125
 
 [83]
 
-[84]
+[84]) (out/god-of-cookery.ind)
 
-[85]
-
-[86]
-
-[87]
-
-[88]
-
-[89]
-
-[90]
-
-[91]
-
-[92]
-
-[93]
-
-[94]) (out/god-of-cookery.ind)
-
-[95] (out/god-of-cookery.aux)
+[85] (out/god-of-cookery.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -1356,12 +1346,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32073 strings out of 473832
- 783606 string characters out of 5729481
- 1329112 words of memory out of 5000000
- 54575 multiletter control sequences out of 15000+600000
- 569212 words of font info for 104 fonts, out of 8000000 for 9000
+ 32079 strings out of 473832
+ 783848 string characters out of 5729481
+ 1338422 words of memory out of 5000000
+ 54580 multiletter control sequences out of 15000+600000
+ 569220 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  121i,12n,123p,2185b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/god-of-cookery.pdf (95 pages).
+Output written on out/god-of-cookery.pdf (85 pages).
