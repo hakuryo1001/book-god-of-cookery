@@ -1,3 +1,6 @@
 [submodule "submodules/latex-ideographic-description-character"]
 	path = submodules/latex-ideographic-description-character
 	url = git@github.com:hakuryo1001/latex-ideographic-description-character.git
+[submodule "submodules/latex-movie-script"]
+	path = submodules/latex-movie-script
+	url = https://github.com/hakuryo1001/latex-movie-script

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  19 JAN 2026 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  27 JAN 2026 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,7 +998,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \stackedbox=\box137
 \@centerbox=\box138
 \c@ROWcellindex@=\count393
-) (out/../styles/movie-script.tex)) (out/god-of-cookery.aux)
+) (out/../styles/movie-script.tex (out/../submodules/latex-movie-script/styles/movie-script.tex))) (out/god-of-cookery.aux)
 \openout1 = `god-of-cookery.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1212,10 +1212,10 @@ LaTeX Font Warning: Font shape `TU/BabelStoneHan(0)/m/it' undefined
 [27]
 
 [28]
-Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=hani;language=dflt;!
-
 
 [29]
+Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=hani;language=dflt;!
+
 
 [30]
 
@@ -1268,10 +1268,10 @@ Missing character: There is no 𢲈 (U+22C88) in font BabelStone Han/OT:script=h
 [54]
 
 [55]
-Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=hani;language=dflt;!
-
 
 [56]
+Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=hani;language=dflt;!
+
 
 [57]
 
@@ -1300,13 +1300,13 @@ Missing character: There is no 𪥘 (U+2A958) in font BabelStone Han/OT:script=h
 [69]
 
 [70]
+
+[71]
 Underfull \hbox (badness 1019) in paragraph at lines 2134--2135
 [][] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []\TU/BabelStoneHan(0)/b/n/10 ！| [] [] [] [] [] [] [] [] [] [] []
  []
 
 
-
-[71]
 
 [72]
 
@@ -1362,15 +1362,17 @@ Underfull \hbox (badness 1019) in paragraph at lines 2134--2135
 
 [98]
 
-[99]) (out/god-of-cookery.ind)
+[99]
 
-[100]
+[100]) (out/god-of-cookery.ind)
 
 [101]
 
 [102]
 
-[103] (out/god-of-cookery.aux)
+[103]
+
+[104] (out/god-of-cookery.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -1381,12 +1383,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32341 strings out of 473832
- 799283 string characters out of 5729481
- 1340461 words of memory out of 5000000
- 54820 multiletter control sequences out of 15000+600000
+ 32348 strings out of 473832
+ 799680 string characters out of 5729481
+ 1339205 words of memory out of 5000000
+ 54823 multiletter control sequences out of 15000+600000
  571007 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  121i,13n,123p,2178b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/god-of-cookery.pdf (103 pages).
+Output written on out/god-of-cookery.pdf (104 pages).
