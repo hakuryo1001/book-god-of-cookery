@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  6 FEB 2026 12:42
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.29)  6 FEB 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -250,7 +250,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip71
 \f@nch@widthR=\skip72
 \@temptokenb=\toks21
-) (./preamble/main.tex
+) (./preamble/main.tex (./preamble/fonts-and-ruby.tex
 
 Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
 
@@ -279,6 +279,9 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"BabelStone
 (fontspec)             Han/OT:script=hani;language=dflt;"
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (STXihei).
 
 
 Package fontspec Info: 
@@ -582,7 +585,7 @@ Package ctexhook Warning: Package `CJK' can not be loaded with `xeCJK'.
 LaTeX Info: Package 'CJK.sty' has been disabled.
             Load request ignored on input line 31.
 \ruby@width=\dimen301
-) (./styles/numerals.tex (./submodules/latex-ideographic-description-character/styles/numerals.tex)) (./styles/idc.tex (./submodules/latex-ideographic-description-character/styles/idc.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+)) (./styles/numerals.tex (./submodules/latex-ideographic-description-character/styles/numerals.tex)) (./styles/idc.tex (./submodules/latex-ideographic-description-character/styles/idc.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip88
@@ -1113,7 +1116,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 )
 \c@lstlisting=\count394
- (./cover/cover.tex
+ (./chapters/0-inner-cover.tex
 LaTeX Font Info:    Calculating math sizes for size <40> on input line 10.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1146,7 +1149,7 @@ LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/b/n' 
 
 
 
-[4] (./chapters/characters.tex
+[4] (./chapters/1-characters.tex
 
 [5]
 Chapter 1.
@@ -1162,7 +1165,7 @@ Chapter 2.
 
 ])
 
-[8] (./chapters/main-play.tex
+[8] (./chapters/2-main-play.tex
 
 LaTeX Font Warning: Font shape `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/it' undefined
 (Font)              using `TU/JyutcitziWithSourceHanSerifTCRegular(0)/m/n' instead on input line 3.
@@ -1383,12 +1386,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32348 strings out of 473832
- 799680 string characters out of 5729481
- 1339205 words of memory out of 5000000
- 54823 multiletter control sequences out of 15000+600000
+ 32359 strings out of 473832
+ 800191 string characters out of 5729481
+ 1339199 words of memory out of 5000000
+ 54832 multiletter control sequences out of 15000+600000
  571007 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 121i,13n,123p,2178b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,13n,123p,2180b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on out/god-of-cookery.pdf (104 pages).

@@ -1,0 +1,65 @@
+% -----------------------------------------------------------------------------
+% Shared fonts, ruby, jyutcitzi, and common packages. No \documentclass.
+% Load ctex (or equivalent) before including this file.
+% Used by: preamble/main.tex (book) and cover-template's cover-preamble.tex.
+% -----------------------------------------------------------------------------
+
+\setCJKmainfont{BabelStone Han}
+\setCJKsansfont{BabelStone Han}
+
+% Jyutcitzi: \jcz{...} and \jczPMingLiU{...}. If font missing, fallback to pass-through.
+% Tries: ../fonts/ (cover template), fonts/ (project root), ../../fonts/ (e.g. shared).
+\IfFileExists{../fonts/JyutcitziWithSourceHanSerifTCRegular.ttf}{%
+  \newfontfamily{\jczPMingLiU}{JyutcitziWithPMingLiURegular}[Path = ../fonts/, Extension = .ttf]
+  \newfontfamily{\jcz}{JyutcitziWithSourceHanSerifTCRegular}[Path = ../fonts/, Extension = .ttf]%
+}{%
+  \IfFileExists{fonts/JyutcitziWithSourceHanSerifTCRegular.ttf}{%
+    \newfontfamily{\jczPMingLiU}{JyutcitziWithPMingLiURegular}[Path = fonts/, Extension = .ttf]
+    \newfontfamily{\jcz}{JyutcitziWithSourceHanSerifTCRegular}[Path = fonts/, Extension = .ttf]%
+  }{%
+    \IfFileExists{../../fonts/JyutcitziWithSourceHanSerifTCRegular.ttf}{%
+      \newfontfamily{\jczPMingLiU}{JyutcitziWithPMingLiURegular}[Path = ../../fonts/, Extension = .ttf]
+      \newfontfamily{\jcz}{JyutcitziWithSourceHanSerifTCRegular}[Path = ../../fonts/, Extension = .ttf]%
+    }{%
+      \newcommand{\jcz}[1]{####1}%
+      \newcommand{\jczPMingLiU}[1]{####1}%
+    }%
+  }%
+}
+\IfFileExists{../fonts/batang.ttf}{%
+  \newfontfamily{\batang}{batang}[Path = ../fonts/, Extension = .ttf]
+  \newCJKfontfamily\koreanfont{Batang}[Path = ../fonts/, Extension = .ttf]%
+}{%
+  \IfFileExists{fonts/batang.ttf}{%
+    \newfontfamily{\batang}{batang}[Path = fonts/, Extension = .ttf]
+    \newCJKfontfamily\koreanfont{Batang}[Path = fonts/, Extension = .ttf]%
+  }{}%
+}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+
+\usepackage{epigraph}
+\makeatletter
+\renewcommand{\@makefntext}[1]{\jcz{\@thefnmark.} #1}
+\makeatother
+
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{tabularray}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{colortbl}
+
+\usepackage{ruby}
+\newcommand{\rubyfont}{\fontsize{7}{30}\selectfont}
+\let\origRuby\ruby
+\renewcommand{\ruby}[2]{\origRuby{#1}{{\rubyfont #2}}}
+
+\renewcommand{\figurename}{圗}

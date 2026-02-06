@@ -1,90 +1,7 @@
-
 % *-----------------------------------------------------------------------*
-% | Fonts and typography                                                  |
+% | Fonts, ruby, jyutcitzi, and common packages (shared with cover)        |
 % *-----------------------------------------------------------------------*
-
-% Set CJK main font (for Chinese/Japanese/Korean characters)
-
-% \setmainfont{Times New Roman}
-\setCJKmainfont{BabelStone Han}
-% doesn't work
-% \setCJKmainfont{JyutcitziWithSourceHanSerifTCRegular}[
-% Renderer=Basic,
-% UprightFont = * ,
-% FallbackFonts={BabelStone Han}
-% ]
-
-
-
-% You can also use \newfontfamily for custom non-CJK fonts if needed
-% \setCJKmainfont{JyutcitziWithPMingLiURegular}[Path = ./, Extension = .ttf]
-% \setCJKmainfont{JyutcitziWithSourceHanSerifTCRegular}[Path = ./, Extension = .ttf]
-
-
-
-\newfontfamily{\jczPMingLiU}{JyutcitziWithPMingLiURegular}[Path = ../fonts/, Extension = .ttf]
-% This has the best rendition for latin characters 
-\newfontfamily{\jcz}{JyutcitziWithSourceHanSerifTCRegular}[Path = ../fonts/, Extension = .ttf]
-\newfontfamily{\batang}{batang}[Path = ../fonts/, Extension = .ttf]
-\newCJKfontfamily\koreanfont{Batang}[Path = ../fonts/, Extension = .ttf]
-
-
-
-
-% *-----------------------------------------------------------------------*
-% | Formatting     |
-% *-----------------------------------------------------------------------*
-% Set global paragraph indentation and spacing
-\setlength{\parindent}{2em} % Adjust this value for the desired indentation
-\setlength{\parskip}{0pt}   % No space between paragraphs
-
-% for quotes
-\usepackage{epigraph} 
-
-
-\makeatletter
-\renewcommand{\@makefntext}[1]{\jcz{\@thefnmark.} #1}
-\makeatother
-% to control itemise spacing
-\usepackage{enumitem}
-
-
-
-% *-----------------------------------------------------------------------*
-% | Math & Equations     |
-% *-----------------------------------------------------------------------*
-\usepackage{amsmath} % For advanced math formatting
-\usepackage{amssymb} % For mathematical symbols
-% \usepackage{tikz} % For drawing logic decision trees
-
-
-% *-----------------------------------------------------------------------*
-% | Table Management                                                      |
-% *-----------------------------------------------------------------------*
-
-
-\usepackage{graphicx}
-\usepackage{array}
-\usepackage{tabularx}
-\usepackage{tabularray}
-\usepackage{longtable}
-
-\usepackage{float}      % Add the float package
-
-
-\usepackage[table,xcdraw]{xcolor}
-% 
-
-% Load ruby package for furigana (Ruby text)
-\usepackage{ruby}
-% Make ruby text larger; adjust the fontsize values if you want more/less.
-
-
-
-\let\origRuby\ruby
-\newcommand{\rubyfont}{\fontsize{7}{30}\selectfont}
-\renewcommand{\ruby}[2]{\origRuby{#1}{{\rubyfont #2}}}
-
+\input{preamble/fonts-and-ruby.tex}
 
 % *-----------------------------------------------------------------------*
 % | Chinese and Soochow Numerals               |
@@ -101,8 +18,6 @@
 % *-----------------------------------------------------------------------*
 % | Table of contents & Chapter for chapter management |
 % *-----------------------------------------------------------------------*
-
-\renewcommand{\figurename}{圗} % So figures would be labeled with 圗 instead of "figure"
 
 % * * * Now for the table of contents
 \renewcommand{\contentsname}{目錄} % Traditional Chinese characters for "Contents"
